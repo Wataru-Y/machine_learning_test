@@ -16,7 +16,7 @@ DECAY = 0.005
 LR = 0.0001
 Epoch = 100
 
-PATH = "../dataset/CNN"
+PATH = "../dataset/CNN/MNIST"
 
 transform = transforms.Compose([transforms.ToTensor(), transforms.Normalize((0.5,), (0.5,))])
 
